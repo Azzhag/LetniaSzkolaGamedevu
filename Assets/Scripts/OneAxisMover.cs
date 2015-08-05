@@ -11,7 +11,9 @@ public class OneAxisMover : MonoBehaviour
 {
     public bool isMovedByPlayer;
     public AxisEnum moveAxis;
-    public float moveForce = 10.0f;
+    [Range(1.0f, 100.0f)]
+    public float
+        moveForce = 10.0f;
 
     private Rigidbody2D rigidBody2D;
 
