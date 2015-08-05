@@ -12,6 +12,8 @@ GameObject:
   - 114: {fileID: 11479790}
   - 50: {fileID: 5094890}
   - 61: {fileID: 6128266}
+  - 114: {fileID: 11429186}
+  - 114: {fileID: 11411536}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Player
@@ -60,6 +62,29 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: .959999979, y: 1.91999996}
+--- !u!114 &11411536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90c0b04a8f9b514f87f656f93bcde33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 25
+--- !u!114 &11429186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470704c35b4292a4a90525e2bc7b25dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11479790
 MonoBehaviour:
   m_ObjectHideFlags: 1
